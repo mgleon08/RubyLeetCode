@@ -14,18 +14,3 @@ Explanation: The process is like: 3 + 8 = 11, 1 + 1 = 2.
 Follow up:
 Could you do it without any loop/recursion in O(1) runtime?
 ```
-
-# Version 1
-
-```ruby
-# @param {Integer} num
-# @return {Integer}
-def add_digits(num)
-  while num / 10 != 0
-    num = (num / 10) + (num % 10)
-  end
-  num
-end
-
-puts add_digits(38)
-```

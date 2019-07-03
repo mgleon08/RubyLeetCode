@@ -28,29 +28,3 @@ Note:
 
 0 ≤ N ≤ 30.
 ```
-
-# Version 1:
-
-```ruby
-def fib(n)
-  return n if n == 0 || n == 1
-  first = 0
-  second = 1
-  for i in 2..n
-    third = first + second
-    first = second
-    second = third
-  end
-  third
-end
-```
-
-# Version 2
-
-```ruby
-def fib(n)
-  a, b = 0, 1
-  n.times { a, b = b, a + b }
-  a
-end
-```
