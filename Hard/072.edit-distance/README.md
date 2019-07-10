@@ -1,7 +1,6 @@
 # 72. Edit Distance
 
-[72. Edit Distance
-](https://leetcode.com/problems/edit-distance/)
+[72. Edit Distance](https://leetcode.com/problems/edit-distance/)
 
 ```ruby
 Given two words word1 and word2, find the minimum number of operations required to convert word1 to word2.
@@ -33,15 +32,15 @@ exection -> execution (insert 'u')
 
 # Version 1
 
-這是一個經典的演算法，由俄羅斯科學家Vladimir Levenshtein在1965年提出這個概念。
+這是一個經典的演算法，由俄羅斯科學家 Vladimir Levenshtein 在 1965 年提出這個概念。
 
 這題主要是用到了，DP(Dynamic Programming) 這個概念來解
 
-* [72. Edit Distance](https://leetcode.com/articles/edit-distance/)
-* [編輯距離演算法（Levenshtein）](https://tw.saowen.com/a/633d345525ad4da6f65d03e172777ee1749e8cbce92c3b225ae63c123ea61ebb)
-* [[理工] 演算法 min edit請教](https://www.ptt.cc/bbs/Grad-ProbAsk/M.1470239320.A.268.html)
-* [動態規劃(DP)的整理-Python描述](https://blog.csdn.net/MrLevo520/article/details/75676160)
-* [Dynamic Programming](http://www.csie.ntnu.edu.tw/~u91029/DynamicProgramming.html)
+- [72. Edit Distance](https://leetcode.com/articles/edit-distance/)
+- [編輯距離演算法（Levenshtein）](https://tw.saowen.com/a/633d345525ad4da6f65d03e172777ee1749e8cbce92c3b225ae63c123ea61ebb)
+- [[理工] 演算法 min edit 請教](https://www.ptt.cc/bbs/Grad-ProbAsk/M.1470239320.A.268.html)
+- [動態規劃(DP)的整理-Python 描述](https://blog.csdn.net/MrLevo520/article/details/75676160)
+- [Dynamic Programming](http://www.csie.ntnu.edu.tw/~u91029/DynamicProgramming.html)
 
 ```ruby
 # 中間每個數字，都代表兩個字串相等時，所需的最小步驟
